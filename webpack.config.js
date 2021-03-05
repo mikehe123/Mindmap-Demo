@@ -13,7 +13,7 @@ module.exports = {
       { test: /\.css$/, use: ["style-loader", "css-loader"] },
     ],
   },
-  mode: "production", // hello mike
+  mode: "development", // hello mike
   plugins: [
     new HtmlWebpackPlugin({
       template: "app/index.html",
